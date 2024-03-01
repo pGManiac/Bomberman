@@ -1,0 +1,31 @@
+<mxfile host="Electron" modified="2024-03-01T14:55:35.053Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.8 Safari/537.36" etag="BDYkjYZbz7ymKOL5uvEQ" version="22.1.2" type="device">
+  <diagram name="Page-1" id="eOkCdFFnqTIDJKb7r1Ex">
+    <mxGraphModel dx="989" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5BiLIh9PxY1oMsfNygHp-1" value="View&lt;br&gt;&lt;br&gt;-Repräsentiert Spielstand in UI&lt;br&gt;-Grafik, Spielboard, Spieler, Animationen" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="110" y="350" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="5BiLIh9PxY1oMsfNygHp-2" value="Model" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="470" y="350" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="5BiLIh9PxY1oMsfNygHp-3" value="Controller&lt;br&gt;&lt;br&gt;-View über Änderungen updaten&lt;br&gt;-Inputs registieren und an Model weitergeben&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="290" y="80" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="5BiLIh9PxY1oMsfNygHp-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="5BiLIh9PxY1oMsfNygHp-1" target="5BiLIh9PxY1oMsfNygHp-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="310" as="sourcePoint" />
+            <mxPoint x="380" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5BiLIh9PxY1oMsfNygHp-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.804;entryY=1.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5BiLIh9PxY1oMsfNygHp-2" target="5BiLIh9PxY1oMsfNygHp-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="215" y="360" as="sourcePoint" />
+            <mxPoint x="348" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
